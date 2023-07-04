@@ -1,0 +1,28 @@
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

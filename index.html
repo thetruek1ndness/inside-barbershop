@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inside Barbershop</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Montserrat+Alternates:wght@400;500&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a class="header__link link" href="tel:+380500121212">
+        +380500121212
+        <svg class="icon" width="24" height="24">
+          <use href="./images/icons.svg#hero-phone-icon"></use>
+        </svg>
+      </a>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-container container">
+          <h1 class="hero__title visually-hidden">Inside Barbershop</h1>
+          <picture>
+            <source
+              media="(max-width: 1028px)"
+              srcset="./images/logo-mob.png 1x, ./images/logo@2-mob.png 2x" />
+            <source
+              media="(min-width: 1028px)"
+              srcset="./images/logo-tab.png 1x, ./images/logo@2-tab.png 2x" />
+            <source
+              media="(min-width: 1440px)"
+              srcset="./images/logo-desk.png 1x, ./images/logo@2-desk.png 2x" />
+            <img
+              src="./images/logo-desk.png"
+              alt="Логотип Inside Barbershop"
+              width="410" />
+          </picture>
+          <p class="hero__text text">
+            Inside - це не просто барбершоп, а місце, де ви можете розслабитися
+            та насолодитись процесом. Ми завжди раді бачити вас в нашому салоні
+            краси та надати вам спраіжній чоловічий комфорт.
+          </p>
+          <a
+            class="hero__button button"
+            href="https://b801248.alteg.io/company/753191/menu?o="
+            target="_blank"
+            rel="noopener nofollower noreferrer"
+            >Записатись</a
+          >
+        </div>
+      </section>
+
+      <!-- PRICE -->
+      <section class="price section">
+        <div class="container">
+          <h2 class="price__title section__title">Price</h2>
+          <ul class="price__list">
+            <li class="price__item">
+              <div class="price__wrapper">
+                <h3 class="price__service">Чоловіча стрижка</h3>
+                <span class="price__price-tag">500</span>
+              </div>
+              <a
+                class="price__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Запис</a
+              >
+            </li>
+            <li class="price__item">
+              <div class="price__wrapper">
+                <h3 class="price__service">Стрижка з бородою</h3>
+                <span class="price__price-tag">600</span>
+              </div>
+              <a
+                class="price__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Запис</a
+              >
+            </li>
+            <li class="price__item">
+              <div class="price__wrapper">
+                <h3 class="price__service">Борода</h3>
+                <span class="price__price-tag">250</span>
+              </div>
+              <a
+                class="price__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Запис</a
+              >
+            </li>
+            <li class="price__item">
+              <div class="price__wrapper">
+                <h3 class="price__service">Батько + син</h3>
+                <span class="price__price-tag">800</span>
+              </div>
+              <a
+                class="price__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Запис</a
+              >
+            </li>
+            <li class="price__item">
+              <div class="price__wrapper">
+                <h3 class="price__service">Віск</h3>
+                <span class="price__price-tag">50</span>
+              </div>
+              <a
+                class="price__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Запис</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- MASTERS -->
+      <section class="masters section">
+        <div class="container">
+          <h2 class="masters__title section__title">Майстри</h2>
+          <div class="masters__card">
+            <picture class="masters__card-image">
+              <source
+                media="(max-width: 1028px)"
+                srcset="
+                  ./images/mobile-masters-master-eugen-min.jpg   1x,
+                  ./images/mobile-masters-master-eugen@2-min.jpg 2x
+                " />
+              <source
+                media="(min-width: 1028px)"
+                srcset="
+                  ./images/tablet-masters-master-eugen-min.jpg   1x,
+                  ./images/tablet-masters-master-eugen@2-min.jpg 2x
+                " />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./images/desktop-masters-master-eugen-min.jpg   1x,
+                  ./images/desktop-masters-master-eugen@2-min.jpg 2x
+                " />
+              <img
+                src="./images/desktop-masters-master-eugen-min.jpg"
+                alt="Барбер Євгеній"
+                width="488" />
+            </picture>
+            <div class="masters__text-wrapper">
+              <h3 class="masters__name">Євгеній</h3>
+              <p class="masters__description text">
+                Досвідчений барбер-майстер із більш ніж п'ятирічний стаж створює
+                стильні та індивідуальні образи для своїх клієнтів. Має навички
+                роботи з різними типами волосся і текстурою, досягаючи відмінних
+                результатів. З його увагою до деталей та високим рівнем
+                обслуговування кожен клієнт може розраховувати на бездоганний
+                вигляд.
+              </p>
+              <a
+                class="masters__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Записатись</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT DONE-->
+      <section class="about section">
+        <div class="container">
+          <h2 class="about__title section__title">Трохи про нас</h2>
+          <ul class="about__list">
+            <li class="about__card">
+              <picture
+                ><source
+                  media="(max-width: 1028px)"
+                  srcset="
+                    ./images/mobile-about-1-min.jpg   1x,
+                    ./images/mobile-about-1@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1028px)"
+                  srcset="
+                    ./images/tablet-about-1-min.jpg   1x,
+                    ./images/tablet-about-1@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ./images/desktop-about-1-min.jpg   1x,
+                    ./images/desktop-about-1@2-min.jpg 2x
+                  " />
+                <img
+                  src="./images/desktop-about-1-min.jpg"
+                  alt="Інтерʼєр барбершопу"
+                  width="472"
+              /></picture>
+              <div class="about__card-thumb text">
+                <h3 class="about__card-title">
+                  Перший барбершоп у Слобожанському.
+                </h3>
+                <p class="about__card-text">
+                  Для всіх чоловіків нашого міста ми створили затишне місце де
+                  ви можете отримати професійний догляд. Чоловік повинен
+                  виглядати завжди на висоті, а наші майстри готові допомогти
+                  вам у цьому. В нас працюють тільки досвідчені майстри, які
+                  знають, як зробити вашу стрижку і гоління максимально
+                  комфортними та стильними.
+                </p>
+              </div>
+            </li>
+            <li class="about__card">
+              <picture
+                ><source
+                  media="(max-width: 1028px)"
+                  srcset="
+                    ./images/mobile-about-2-min.jpg   1x,
+                    ./images/mobile-about-2@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1028px)"
+                  srcset="
+                    ./images/tablet-about-2-min.jpg   1x,
+                    ./images/tablet-about-2@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ./images/desktop-about-2-min.jpg   1x,
+                    ./images/desktop-about-2@2-min.jpg 2x
+                  " />
+                <img
+                  src="./images/desktop-about-2-min.jpg"
+                  alt="Стрижка від веселого барбера Євгенія"
+                  width="472"
+              /></picture>
+              <div class="about__card-thumb text">
+                <h3 class="about__card-title">
+                  Стрижка та гоління може бути в задоволення!
+                </h3>
+                <p class="about__card-text">
+                  Якісна стрижка - це не просто зачіска, а стиль, який
+                  відображає вашу особливість. Довірте свій вигляд професіоналам
+                  нашого барбершопу та відчуйте себе неперевершеним! Наші
+                  майстри - це справжні професіонали своєї справи, які знають,
+                  як зробити вас ще кращими. Відвідай наш барбершоп та
+                  переконайтеся в цьому самі!
+                </p>
+              </div>
+            </li>
+          </ul>
+          <a
+            class="about__button button"
+            href="https://b801248.alteg.io/company/753191/menu?o="
+            target="_blank"
+            rel="noopener nofollower noreferrer"
+            >Записатись</a
+          >
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section class="products section">
+        <div class="container">
+          <h2 class="products__title section__title">Продукція</h2>
+          <div class="js-slider">
+            <a class="js-prev">
+              <svg class="prev-icon" width="24" height="24">
+                <use href="./images/icons.svg#products-slide-left-icon"></use>
+              </svg>
+            </a>
+            <ul class="products__list">
+              <li class="products__item js-oil js-first">
+                <picture>
+                  <source
+                    media="(max-width: 1028px)"
+                    srcset="
+                      ./images/mobile-products-oil-min.jpg   1x,
+                      ./images/mobile-products-oil@2-min.jpg 2x
+                    " />
+                  <source
+                    media="(min-width: 1028px)"
+                    srcset="
+                      ./images/tablet-products-oil-min.jpg   1x,
+                      ./images/tablet-products-oil@2-min.jpg 2x
+                    " />
+                  <source
+                    media="(min-width: 1440px)"
+                    srcset="
+                      ./images/desktop-products-oil-min.jpg  1x,
+                      ./images/desktop-products-oil2-min.jpg 2x
+                    " />
+                  <img
+                    src="./images/desktop-products-oil-min.jpg"
+                    alt="Олія для догляду за бородою."
+                    width="450" />
+                </picture>
+                <div class="products__item-thumb text">
+                  <h3 class="products__product-name">
+                    Олія для догляду за бородою
+                  </h3>
+                  <p class="products__product-description">
+                    Глибоко зволожує бороду і надає ефект еластичності. Склад
+                    багатий компонентами для догляду за шкірою обличчя,
+                    ефективно розгладжують її.
+                  </p>
+                </div>
+              </li>
+              <li class="products__item js-clay js-second">
+                <picture>
+                  <source
+                    media="(max-width: 1028px)"
+                    srcset="
+                      ./images/mobile-products-clay-min.jpg   1x,
+                      ./images/mobile-products-clay@2-min.jpg 2x
+                    " />
+                  <source
+                    media="(min-width: 1028px)"
+                    srcset="
+                      ./images/tablet-products-clay-min.jpg   1x,
+                      ./images/tablet-products-clay@2-min.jpg 2x
+                    " />
+                  <source
+                    media="(min-width: 1440px)"
+                    srcset="
+                      ./images/desktop-products-clay-min.jpg  1x,
+                      ./images/desktop-products-clay2-min.jpg 2x
+                    " />
+                  <img
+                    src="./images/desktop-products-clay-min.jpg"
+                    alt="Глина для укладання волосся"
+                    width="450" />
+                </picture>
+                <div class="products__item-thumb text">
+                  <h3 class="products__product-name">
+                    Глина для укладання волосся
+                  </h3>
+                  <p class="products__product-description">
+                    Має сильну, але в той же час пластичну фіксацію, створює
+                    привабливу текстуру волоссю і надає їм приємного матового
+                    ефекту.
+                  </p>
+                </div>
+              </li>
+              <li class="products__item js-paste js-third">
+                <picture>
+                  <source
+                    media="(max-width: 1028px)"
+                    srcset="
+                      ./images/mobile-products-paste-min.jpg   1x,
+                      ./images/mobile-products-paste@2-min.jpg 2x
+                    " />
+                  <source
+                    media="(min-width: 1028px)"
+                    srcset="
+                      ./images/tablet-products-paste-min.jpg   1x,
+                      ./images/tablet-products-paste@2-min.jpg 2x
+                    " />
+                  <source
+                    media="(min-width: 1440px)"
+                    srcset="
+                      ./images/desktop-products-paste-min.jpg  1x,
+                      ./images/desktop-products-paste2-min.jpg 2x
+                    " />
+                  <img
+                    src="./images/desktop-products-paste-min.jpg"
+                    alt="Паста для укладання волосся"
+                    width="450" />
+                </picture>
+                <div class="products__item-thumb text">
+                  <h3 class="products__product-name">
+                    Паста для укладання волосся
+                  </h3>
+                  <p class="products__product-description">
+                    Розробленний для широкого спектра зачісок, які здатні
+                    витримувати спекотне літо. Підходить для волосся середньої і
+                    більше довжини.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <a class="js-next">
+              <svg class="next-icon" width="24" height="24">
+                <use href="./images/icons.svg#products-slide-right-icon"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer section">
+      <div class="container">
+        <h2 class="footer__title section__title">Контакти</h2>
+        <div class="footer__wrapper">
+          <address class="footer__links">
+            <a class="footer__link phone link" href="tel:+380500121212">
+              <svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#phone-icon"></use>
+              </svg>
+              +380500121212</a
+            >
+            <a
+              class="footer__link geoposition link"
+              href="https://goo.gl/maps/UCoC4Q16ppqUE9cs6"
+              target="_blank"
+              rel="noopener nofollower noreferrer">
+              <svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#geo-icon"></use>
+              </svg>
+              Адреса: Будівельників 12</a
+            >
+            <a
+              class="footer__link instagram link"
+              href="https://www.instagram.com/inside_barbershop_/"
+              target="_blank"
+              rel="noopener nofollower noreferrer">
+              <svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram-icon"></use>
+              </svg>
+              inst: @inside_barbershop_</a
+            >
+            <p class="footer__link schedule">
+              <svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#clock-icon"></use>
+              </svg>
+              Графік роботи: <br />
+              з 10:00 до 20:00
+            </p>
+          </address>
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d660.5244869862479!2d35.0753313!3d48.5313546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d959b399611ac9%3A0xa661432a4e2d5629!2z0JTQvtC8!5e0!3m2!1sen!2sua!4v1688413081098!5m2!1sen!2sua"
+              width="472"
+              height="240"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <p class="footer__copyright text">Barbershop INSIDE</p>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="./index.js"></script>
+  </body>
+</html>

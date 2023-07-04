@@ -1,0 +1,54 @@
+.about__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-bottom: 24px;
+
+  @include tablet {
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  @include desktop {
+    gap: 48px;
+    margin-bottom: 48px;
+  }
+}
+
+.about__card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-bottom: 24px;
+
+  @include tablet {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.about__card-thumb {
+  @include tablet {
+    max-width: 347px;
+    text-align: left;
+  }
+
+  @include desktop {
+    max-width: 488px;
+  }
+}
+
+.about__card-title {
+  font-weight: 400;
+
+  @include desktop {
+    font-weight: 500;
+  }
+}

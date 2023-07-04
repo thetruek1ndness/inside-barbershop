@@ -1,0 +1,20 @@
+:root {
+  /* Font-families */
+  --primary-font-family: "Montserrat Alternates", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
+  /* Text-colors */
+  --primary-text-color: #151515;
+  --secondary-text-color: #FFFFFF;
+  /* Accent-colors */
+  --accent-color: #2D8997;
+  --secondary-accent-color: #36B3C6; 
+  /* icon-colors */
+  --primary-icon-color: #000000;
+  /* background-colors */
+  --primary-bg-color: #F8F8F8;
+  --secondary-bg-color: #D8ECF0;
+  /* transition */
+  --hft: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* frame-color */
+  --frame-color: #000000;
+}

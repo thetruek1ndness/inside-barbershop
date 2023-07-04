@@ -1,0 +1,43 @@
+.masters__name {
+  font-size: 24px;
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+
+  @include desktop{
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
+
+.masters__description{
+  text-align: center;
+}
+
+.masters__card{
+  @include tablet{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 38px;
+  }
+}
+
+.masters__text-wrapper {
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include tablet{
+    margin-top: 0;
+
+    max-width: 359px;
+  }
+
+  @include desktop{
+    max-width: 480px;
+  }
+}
+

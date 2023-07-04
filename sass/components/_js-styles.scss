@@ -1,0 +1,36 @@
+.js-slider {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.js-first {
+  @include tablet {
+    transform: translateX(-50%) scale(1.03);
+    box-shadow: 6px 8px 6px 0px rgba(0, 0, 0, 0.4),
+      -6px 8px 4px 0px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+}
+
+.js-second {
+  display: none;
+
+  @include tablet {
+    display: block;
+
+    left: 78%;
+  }
+}
+
+.js-third {
+  display: none;
+
+  @include tablet {
+    display: block;
+
+    left: 22%;
+  }
+}

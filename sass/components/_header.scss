@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding-top: 28px;
+  padding-right: 24px;
+
+  background-color: transparent;
+}
+
+.header__link {
+  position: relative;
+  padding-right: 40px;
+  color: var(--secondary-text-color);
+
+  & .icon {
+    position: absolute;
+    top: -5px;
+    right: 0;
+  }
+
+  @include tablet{
+    font-size: 16px;
+  }
+}
