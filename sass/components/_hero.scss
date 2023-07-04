@@ -1,26 +1,26 @@
 .hero {
   padding-top: 142px;
   padding-bottom: 100px;
-  background-image: url(../../images/mobile-hero-bg-min.png);
+  background-image: url(../images/mobile-hero-bg-min.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   @include retina {
-    background-image: url(../../images/mobile-hero-bg@2-min.png);
+    background-image: url(../images/mobile-hero-bg@2-min.png);
   }
 
   @include tablet {
-    background-image: url(../../images/tablet-hero-bg-min.png);
+    background-image: url(../images/tablet-hero-bg-min.png);
     @include retina {
-      background-image: url(../../images/tablet-hero-bg-min.png);
+      background-image: url(../images/tablet-hero-bg-min.png);
     }
   }
 
   @include desktop {
-    background-image: url(../../images/desktop-hero-bg-min.png);
+    background-image: url(../images/desktop-hero-bg-min.png);
     @include retina {
-      background-image: url(../../images/desktop-hero-bg-min.png);
+      background-image: url(../images/desktop-hero-bg-min.png);
     }
   }
 }
