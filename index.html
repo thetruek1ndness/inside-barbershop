@@ -24,12 +24,17 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <a class="header__link link" href="tel:+380500121212">
-        +380500121212
-        <svg class="icon" width="24" height="24">
-          <use href="./images/icons.svg#hero-phone-icon"></use>
-        </svg>
-      </a>
+      <div class="header__tel-wrap">
+        <a class="header__link link" href="tel:+380500121212">
+          +380500121212
+          <svg class="icon" width="25" height="25">
+            <use href="./images/icons.svg#hero-phone-icon"></use>
+          </svg>
+        </a>
+        <a class="header__link link" href="tel:+380931942252">
+          +380931942252
+        </a>
+      </div>
     </header>
 
     <main>
@@ -422,14 +427,17 @@
         <h2 class="footer__title section__title">Контакти</h2>
         <div class="footer__wrapper">
           <address class="footer__links">
-            <a class="footer__link phone link" href="tel:+380500121212">
-              <svg class="footer__icon" width="24" height="24">
-                <use href="./images/icons.svg#phone-icon"></use>
-              </svg>
-              +380500121212</a
-            >
+            <div class="footer__link footer__tel-wrap">
+              <a class="link" href="tel:+380500121212">
+                <svg class="footer__icon" width="24" height="24">
+                  <use href="./images/icons.svg#phone-icon"></use>
+                </svg>
+                +380500121212 ;</a
+              >
+              <a class="link" href="tel:+380931942252"> +380931942252 </a>
+            </div>
             <a
-              class="footer__link geoposition link"
+              class="footer__link link"
               href="https://goo.gl/maps/UCoC4Q16ppqUE9cs6"
               target="_blank"
               rel="noopener nofollower noreferrer">
@@ -439,7 +447,7 @@
               Адреса: Будівельників 12</a
             >
             <a
-              class="footer__link instagram link"
+              class="footer__link link"
               href="https://www.instagram.com/inside_barbershop_/"
               target="_blank"
               rel="noopener nofollower noreferrer">
@@ -448,7 +456,7 @@
               </svg>
               inst: @inside_barbershop_</a
             >
-            <p class="footer__link schedule">
+            <p class="footer__link">
               <svg class="footer__icon" width="24" height="24">
                 <use href="./images/icons.svg#clock-icon"></use>
               </svg>

@@ -12,6 +12,12 @@
   background-color: transparent;
 }
 
+.header__tel-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .header__link {
   position: relative;
   padding-right: 40px;
@@ -19,11 +25,11 @@
 
   & .icon {
     position: absolute;
-    top: -5px;
-    right: 0;
+    top: 11px;
+    left: -35px;
   }
 
-  @include tablet{
+  @include tablet {
     font-size: 16px;
   }
 }
