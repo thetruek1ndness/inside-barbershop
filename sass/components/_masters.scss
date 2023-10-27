@@ -5,21 +5,43 @@
   line-height: normal;
   text-align: center;
 
-  @include desktop{
+  @include desktop {
     font-size: 32px;
     font-weight: 500;
   }
 }
 
-.masters__description{
+.masters__description {
   text-align: center;
 }
 
-.masters__card{
-  @include tablet{
+.masters__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @include tablet {
+    gap: 32px;
+  }
+
+  @include desktop {
+    gap: 48px;
+  }
+}
+
+.masters__card {
+  @include tablet {
     display: flex;
     flex-direction: row-reverse;
     gap: 38px;
+  }
+
+  &:nth-child(even) {
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      gap: 38px;
+    }
   }
 }
 
@@ -28,16 +50,16 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 16px;
 
-  @include tablet{
+  @include tablet {
     margin-top: 0;
 
     max-width: 359px;
   }
 
-  @include desktop{
+  @include desktop {
     max-width: 480px;
   }
 }
-

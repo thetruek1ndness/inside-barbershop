@@ -205,17 +205,6 @@ img {
   background-color: transparent;
 }
 
-.header__tel-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 15px;
-}
-
 .header__link {
   position: relative;
   padding-right: 40px;
@@ -223,8 +212,8 @@ img {
 }
 .header__link .icon {
   position: absolute;
-  top: 11px;
-  left: -35px;
+  top: -5px;
+  right: 0px;
 }
 @media screen and (min-width: 1028px) {
   .header__link {
@@ -362,6 +351,18 @@ img {
   }
 }
 
+@media screen and (min-width: 390px) and (max-width: 1028px) {
+  .price__wrapper--big {
+    max-width: 177px;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 1028px) {
+  .price__wrapper--bigger {
+    max-width: 191px;
+  }
+}
+
 .price__service {
   margin-bottom: 12px;
   font-size: 16px;
@@ -431,6 +432,27 @@ img {
   text-align: center;
 }
 
+.masters__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+@media screen and (min-width: 1028px) {
+  .masters__list {
+    gap: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .masters__list {
+    gap: 48px;
+  }
+}
+
 @media screen and (min-width: 1028px) {
   .masters__card {
     display: -webkit-box;
@@ -440,6 +462,18 @@ img {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    gap: 38px;
+  }
+}
+@media screen and (min-width: 1028px) {
+  .masters__card:nth-child(even) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 38px;
   }
 }
@@ -453,6 +487,9 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 16px;
 }
 @media screen and (min-width: 1028px) {

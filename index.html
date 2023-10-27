@@ -24,17 +24,12 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <div class="header__tel-wrap">
-        <a class="header__link link" href="tel:+380500121210">
-          +380500121210
-          <svg class="icon" width="25" height="25">
-            <use href="./images/icons.svg#hero-phone-icon"></use>
-          </svg>
-        </a>
-        <a class="header__link link" href="tel:+380931942252">
-          +380931942252
-        </a>
-      </div>
+      <a class="header__link link" href="tel:+380500121210">
+        +380500121210
+        <svg class="icon" width="25" height="25">
+          <use href="./images/icons.svg#hero-phone-icon"></use>
+        </svg>
+      </a>
     </header>
 
     <main>
@@ -80,7 +75,7 @@
             <li class="price__item">
               <div class="price__wrapper">
                 <h3 class="price__service">Чоловіча стрижка</h3>
-                <span class="price__price-tag">500</span>
+                <span class="price__price-tag">600 / 350</span>
               </div>
               <a
                 class="price__button button"
@@ -93,7 +88,7 @@
             <li class="price__item">
               <div class="price__wrapper">
                 <h3 class="price__service">Стрижка з бородою</h3>
-                <span class="price__price-tag">600</span>
+                <span class="price__price-tag">700 / 450</span>
               </div>
               <a
                 class="price__button button"
@@ -106,7 +101,7 @@
             <li class="price__item">
               <div class="price__wrapper">
                 <h3 class="price__service">Борода</h3>
-                <span class="price__price-tag">250</span>
+                <span class="price__price-tag">300 / 250</span>
               </div>
               <a
                 class="price__button button"
@@ -130,9 +125,35 @@
               >
             </li>
             <li class="price__item">
+              <div class="price__wrapper price__wrapper--big">
+                <h3 class="price__service">Стрижка з бородою + син</h3>
+                <span class="price__price-tag">1000</span>
+              </div>
+              <a
+                class="price__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Запис</a
+              >
+            </li>
+            <li class="price__item">
+              <div class="price__wrapper price__wrapper--bigger">
+                <h3 class="price__service">Стрижка під насадку + Fade</h3>
+                <span class="price__price-tag">500</span>
+              </div>
+              <a
+                class="price__button button"
+                href="https://b801248.alteg.io/company/753191/menu?o="
+                target="_blank"
+                rel="noopener nofollower noreferrer"
+                >Запис</a
+              >
+            </li>
+            <li class="price__item">
               <div class="price__wrapper">
-                <h3 class="price__service">Віск</h3>
-                <span class="price__price-tag">50</span>
+                <h3 class="price__service">Дитяча стрижка</h3>
+                <span class="price__price-tag">500</span>
               </div>
               <a
                 class="price__button button"
@@ -150,54 +171,97 @@
       <section class="masters section">
         <div class="container">
           <h2 class="masters__title section__title">Майстри</h2>
-          <div class="masters__card">
-            <picture class="masters__card-image">
-              <source
-                media="(max-width: 1028px)"
-                srcset="
-                  ./images/mobile-masters-master-eugen-min.jpg   1x,
-                  ./images/mobile-masters-master-eugen@2-min.jpg 2x
-                " />
-              <source
-                media="(min-width: 1028px)"
-                srcset="
-                  ./images/tablet-masters-master-eugen-min.jpg   1x,
-                  ./images/tablet-masters-master-eugen@2-min.jpg 2x
-                " />
-              <source
-                media="(min-width: 1440px)"
-                srcset="
-                  ./images/desktop-masters-master-eugen-min.jpg   1x,
-                  ./images/desktop-masters-master-eugen@2-min.jpg 2x
-                " />
-              <img
-                src="./images/desktop-masters-master-eugen-min.jpg"
-                alt="Барбер Євгеній"
-                width="488" />
-            </picture>
-            <div class="masters__text-wrapper">
-              <h3 class="masters__name">Євгеній</h3>
-              <p class="masters__description text">
-                Досвідчений барбер-майстер із більш ніж п'ятирічний стаж створює
-                стильні та індивідуальні образи для своїх клієнтів. Має навички
-                роботи з різними типами волосся і текстурою, досягаючи відмінних
-                результатів. З його увагою до деталей та високим рівнем
-                обслуговування кожен клієнт може розраховувати на бездоганний
-                вигляд.
-              </p>
-              <a
-                class="masters__button button"
-                href="https://b801248.alteg.io/company/753191/menu?o="
-                target="_blank"
-                rel="noopener nofollower noreferrer"
-                >Записатись</a
-              >
-            </div>
-          </div>
+          <ul class="masters__list">
+            <li class="masters__card">
+              <picture class="masters__card-image">
+                <source
+                  media="(max-width: 1028px)"
+                  srcset="
+                    ./images/mobile-masters-master-eugen-min.jpg   1x,
+                    ./images/mobile-masters-master-eugen@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1028px)"
+                  srcset="
+                    ./images/tablet-masters-master-eugen-min.jpg   1x,
+                    ./images/tablet-masters-master-eugen@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ./images/desktop-masters-master-eugen-min.jpg   1x,
+                    ./images/desktop-masters-master-eugen@2-min.jpg 2x
+                  " />
+                <img
+                  src="./images/desktop-masters-master-eugen-min.jpg"
+                  alt="Барбер Євгеній"
+                  width="488" />
+              </picture>
+              <div class="masters__text-wrapper">
+                <h3 class="masters__name">Євгеній</h3>
+                <p class="masters__description text">
+                  Досвідчений барбер-майстер із більш ніж п'ятирічний стаж
+                  створює стильні та індивідуальні образи для своїх клієнтів.
+                  Має навички роботи з різними типами волосся і текстурою,
+                  досягаючи відмінних результатів. З його увагою до деталей та
+                  високим рівнем обслуговування кожен клієнт може розраховувати
+                  на бездоганний вигляд.
+                </p>
+                <a
+                  class="masters__button button"
+                  href="https://b801248.alteg.io/company/753191/menu?o="
+                  target="_blank"
+                  rel="noopener nofollower noreferrer"
+                  >Записатись</a
+                >
+              </div>
+            </li>
+            <li class="masters__card">
+              <picture class="masters__card-image">
+                <source
+                  media="(max-width: 1028px)"
+                  srcset="
+                    ./images/mobile-master-sonya-min.jpg   1x,
+                    ./images/mobile-master-sonya@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1028px)"
+                  srcset="
+                    ./images/tablet-master-sonya-min.jpg   1x,
+                    ./images/tablet-master-sonya@2-min.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ./images/desktop-master-sonya-min.jpg   1x,
+                    ./images/desktop-master-sonya@2-min.jpg 2x
+                  " />
+                <img
+                  src="./images/desktop-master-sonya-min.jpg"
+                  alt="Барбер Соня"
+                  width="488" />
+              </picture>
+              <div class="masters__text-wrapper">
+                <h3 class="masters__name">Соня</h3>
+                <p class="masters__description text">
+                  Талановитий фахівець, яка приєдналася до нашої команди. З
+                  великим досвідом та турботою про кожного клієнта, вона вже
+                  готова допомогти вам отримати ідеальний образ.
+                </p>
+                <a
+                  class="masters__button button"
+                  href="https://b801248.alteg.io/company/753191/menu?o="
+                  target="_blank"
+                  rel="noopener nofollower noreferrer"
+                  >Записатись</a
+                >
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
-      <!-- ABOUT DONE-->
+      <!-- ABOUT -->
       <section class="about section">
         <div class="container">
           <h2 class="about__title section__title">Трохи про нас</h2>
@@ -432,9 +496,8 @@
                 <svg class="footer__icon" width="24" height="24">
                   <use href="./images/icons.svg#phone-icon"></use>
                 </svg>
-                +380500121210 ;</a
-              >
-              <a class="link" href="tel:+380931942252"> +380931942252 </a>
+                +380500121210
+              </a>
             </div>
             <a
               class="footer__link link"
